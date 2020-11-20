@@ -12,8 +12,6 @@
 
 	$userBMI = berekenBMI($userGewicht, $userLengte);
 
-		//mijn uitwerking van duncans array -> multidemensioneel keyed array.
-		//"0" voor man, "1" voor vrouw (of alles wat geen man is)
 		$teLicht = array
 			(
 			array("0", "6"=>14.03, "7"=>14.06, "8"=>14.20,"9"=>14.41, "10"=>14.69, "11"=>15.03, "12"=>15.47,
@@ -55,13 +53,7 @@
 		}
 		return $geslachtsIndex;
 	}
-	//deze functie vergelijkt alle waarden van de gebruiker en geeft geeft een advies mee.
-	//hier erg lang mee bezig geweest omdat je niet variables kan gebruiken die buiten de scope van de functie vallen
-	//op stackoverflow gelezen dat je de functie/syntax "use" kan gebruiken om variables van buiten de functie kan
-	//gebruiken. maar hiervoor heb je de php versie 5.4 of hoger nodig die ik niet heb.
-	//nu schijnt dat je de "global" functie kan gebruiken om dit te doen, maar wordt door mensen op stackoverflow,
-	//afgeraden omdat dit in grote projecten voor problemen kan zorgen?
-	//graag wil ik hier over meer uitleg krijgen.
+
 	function userAdvies(float $bmi) {
 		global $obesitas, $goedGewicht, $teLicht, $userGewicht, $userLeeftijd, $userGeslacht; 
 
@@ -82,7 +74,4 @@
 
 	echo "uw bmi is " . berekenBMI($userGewicht, $userLengte) . " je hebt " . userAdvies($userBMI);
 
-	#echo "<br> <br> " . $teLicht[1][10];
-
-	#echo "<br> <br> " . $teLicht[geslachtIndex($userGeslacht)][leeftijdInArray($userLeeftijd)];
 ?>

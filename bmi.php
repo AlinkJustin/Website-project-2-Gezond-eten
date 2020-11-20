@@ -1,8 +1,3 @@
-<?php
-
-
-
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,19 +12,19 @@
     </head>
     <body>
         <header>
-            <a href="index.html">
+            <a href="index.php">
                 <img class="logo" src="images/32341-grapes-icon.png">
             </a>
             <h1>Bedrijf naam. Gezond Eten</h1>
         </header>
         <div id="nav-bar">
             <nav>
-                <a class="nav-item" href="schijfvanvijf.html">Schijf van vijf</a>
-                <a class="nav-item" href="recepten.html">Recepten</a>
-                <a class="nav-item" id="active-tab" href="bmi.html">Bereken BMI</a>
-                <a class="nav-item" href="gezondeten.html">Gezond Eten</a>
-                <a class="nav-item" href="vragenlijst.html">Vragenlijst</a>
-                <a class="nav-item" href="svvgame.html">SvV Game</a>
+                <a class="nav-item" href="schijfvanvijf.php">Schijf van vijf</a>
+                <a class="nav-item" href="recepten.php">Recepten</a>
+                <a class="nav-item" id="active-tab" href="bmi.php">Bereken BMI</a>
+                <a class="nav-item" href="gezondeten.php">Gezond Eten</a>
+                <a class="nav-item" href="vragenlijst.php">Vragenlijst</a>
+                <a class="nav-item" href="svvgame.php">SvV Game</a>
             </nav>
         </div>
         <div id="inleiding">
@@ -50,7 +45,10 @@
         </div>
         <hr>
         <div id="inhoud-bmi">
-           
+        <!-- <?php include 'includes/BMI-Berekenaar.php'; ?> -->
+            <div id="user-input">
+
+            </div>
         </div>
         <footer>
 

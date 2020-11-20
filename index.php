@@ -12,19 +12,19 @@
     </head>
     <body>
         <header>
-            <a href="index.html">
+            <a href="index.php">
                 <img class="logo" src="images/32341-grapes-icon.png">
             </a>
             <h1>Bedrijf naam. Gezond Eten</h1>
         </header>
         <div id="nav-bar">
             <nav>
-                <a class="nav-item" href="schijfvanvijf.html">Schijf van vijf</a>
-                <a class="nav-item" href="recepten.html">Recepten</a>
-                <a class="nav-item" href="bmi.html">Bereken BMI</a>
-                <a class="nav-item" href="gezondeten.html">Gezond Eten</a>
-                <a class="nav-item" href="vragenlijst.html">Vragenlijst</a>
-                <a class="nav-item" href="svvgame.html">SvV Game</a>
+                <a class="nav-item" href="schijfvanvijf.php">Schijf van vijf</a>
+                <a class="nav-item" href="recepten.php">Recepten</a>
+                <a class="nav-item" href="bmi.php">Bereken BMI</a>
+                <a class="nav-item" href="gezondeten.php">Gezond Eten</a>
+                <a class="nav-item" href="vragenlijst.php">Vragenlijst</a>
+                <a class="nav-item" href="svvgame.php">SvV Game</a>
             </nav>
         </div>
         <div id="inleiding">
@@ -45,12 +45,12 @@
         </div>
         <hr>
         <div id="tiles">
-                <li><a href="schijfvanvijf.html">Schijf van vijf</a></li>
-                <li><a href="recepten.html">Recepten</a></li>
-                <li><a href="bmi.html">Bereken BMI</a></li>
-                <li><a href="gezondeten.html">Gezond Eten</a></li>
-                <li><a href="vragenlijst.html">Vragenlijst</a></li>
-                <li><a href="svvgame.html">SvV Game</a></li>
+                <li><a href="schijfvanvijf.php">Schijf van vijf</a></li>
+                <li><a href="recepten.php">Recepten</a></li>
+                <li><a href="bmi.php">Bereken BMI</a></li>
+                <li><a href="gezondeten.php">Gezond Eten</a></li>
+                <li><a href="vragenlijst.php">Vragenlijst</a></li>
+                <li><a href="svvgame.php">SvV Game</a></li>
         </div>
         <footer>
 
