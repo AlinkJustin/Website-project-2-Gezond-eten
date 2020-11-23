@@ -1,8 +1,8 @@
-#user-input form #text{
-    display: inline-grid;
-    box-sizing: border-box;
-    width: 250px;
+#user-input .control {
+    width: 100%;
+    display: block;
 }
+
 div#inhoud-bmi{
     background-color: #dfd9d9;
 }

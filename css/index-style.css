@@ -1,23 +1,10 @@
-#tiles{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-#tiles .tile {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 33.3%;
-    max-width: 33.3%;;
-}
-
 #tiles .tile a {
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, 0.8);
     text-decoration: none;
     background-color: #4f0052;
     opacity: 0.2;
-    height: 100px;
+    height: 250px;
 }
 
 #tiles .tile a:hover{
