@@ -5,11 +5,10 @@
         <title>Project 2</title>
         <meta name="description" content="Project 2 Gezond Eten.">
         <meta name="author" content="Justin Alink">
-
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/standaard-style.css">
         <link rel="stylesheet" href="css/svvgame-style.css">
-        <!--<script defer type="text/javascript" src="js/main.js"></script>-->
+        <script defer type="text/javascript" src="scripts/FruitClicker.js"></script>
     </head>
     <body>
         <?php 
@@ -44,7 +43,21 @@
                 </div>
 
                 <hr>
-
+                <div>
+                    <input type="button" id="hoofdfruit" value="Fruit">
+                    <input type="button" id="item1" value="Item 1">
+                    <input type="button" id="item2" value="Item 2"> 
+                    <input type="button" id="item3" value="Item 3"> 
+                    <div class="stats">
+                        
+                        aantal Fruit: <span id="fruitAantal"></span><br>
+                        prijs Item 1: <span id="item1Prijs"></span><br>
+                        aantal Item 1: <span id="item1Aantal"></span><br>
+                        aantal Item 2: <span id="item2Aantal"></span><br>
+                        aantal Item 3: <span id="item3Aantal"></span><br>
+                        Fps: <span id="fruitPerSeconde"></span><br>
+                    </div>
+                </div>
 
             </div>
         </div>
