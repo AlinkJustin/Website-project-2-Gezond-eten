@@ -11,22 +11,10 @@
         <!--<script defer type="text/javascript" src="js/main.js"></script>-->
     </head>
     <body>
-        <header>
-            <a href="index.php">
-                <img class="logo" src="images/32341-grapes-icon.png">
-            </a>
-            <h1>Bedrijf naam. Gezond Eten</h1>
-        </header>
-        <div id="nav-bar">
-            <nav>
-                <a class="nav-item" href="schijfvanvijf.php">Schijf van vijf</a>
-                <a class="nav-item" href="recepten.php">Recepten</a>
-                <a class="nav-item" href="bmi.php">Bereken BMI</a>
-                <a class="nav-item" href="gezondeten.php">Gezond Eten</a>
-                <a class="nav-item" href="vragenlijst.php">Vragenlijst</a>
-                <a class="nav-item" href="svvgame.php">SvV Game</a>
-            </nav>
-        </div>
+        <?php
+            include "includes/header.php";
+            include "includes/nav.php";
+        ?>
         <div id="inleiding">
             <h1>Welkom op deze site</h1>
         </div>
@@ -45,26 +33,15 @@
         </div>
         <hr>
         <div id="tiles">
-                <li><a href="schijfvanvijf.php">Schijf van vijf</a></li>
-                <li><a href="recepten.php">Recepten</a></li>
-                <li><a href="bmi.php">Bereken BMI</a></li>
-                <li><a href="gezondeten.php">Gezond Eten</a></li>
-                <li><a href="vragenlijst.php">Vragenlijst</a></li>
-                <li><a href="svvgame.php">SvV Game</a></li>
+                <div class="tile"><a href="schijfvanvijf.php" id="schijfvanvijf">1</a></div>
+                <div class="tile"><a href="recepten.php" id="recepten">2</a></div>
+                <div class="tile"><a href="bmi.php" id="bmi">3</a></div>
+                <div class="tile"><a href="gezondeten.php" id="gezondeten">4</a></div>
+                <div class="tile"i><a href="vragenlijst.php" id="vragenlijst">5</a></div>
+                <div class="tile"i><a href="svvgame.php" id="ssv-game">6</a></div>
         </div>
-        <footer>
-
-            <div id="footer-logo">
-                <img id="footer-logo" src="images/32341-grapes-icon.png">
-            </div>
-            <div id="contact-gegevens">
-                <h1>Contact Gegevens</h1>
-                <ul>
-                    <li>Telefoon nummer: 06123456</li>
-                    <li>Email: website@project2.nl</li>
-                    <li></li>
-                </ul>
-            </div>
-        </footer>
+        <?php
+            include "includes/footer.php";
+        ?>
     </body>
 </html>

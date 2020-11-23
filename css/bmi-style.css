@@ -1,0 +1,8 @@
+#user-input form #text{
+    display: inline-grid;
+    box-sizing: border-box;
+    width: 250px;
+}
+div#inhoud-bmi{
+    background-color: #dfd9d9;
+}

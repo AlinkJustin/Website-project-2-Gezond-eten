@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    padding: 0 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.col-25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-75 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+@media (max-width: 768px) {
+    .col-m-100 {
+        flex: 0 0 100%;
+        max-width: 100%;       
+    }
+}

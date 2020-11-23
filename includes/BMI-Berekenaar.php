@@ -1,16 +1,27 @@
 <?php
-	//gebruikers gegevens voor het berekenen van de bmi (hardcoded)
-	(float)$userGewicht = 70;
-	(float)$userLengte = 1.80;
-	(string)$userGeslacht = "Man";
-	(string)$userLeeftijd = 21;
+	if(!isset($_POST['submit'])) 
+	{
+		return;
+	}
+	
+	$userInput = array(
+		"lengte" => is_numeric($_POST['lengte']) ? ($_POST['lengte'] / 100) : "",
+		"leeftijd" => is_numeric($_POST['leeftijd']) ? $_POST['leeftijd'] : "",
+		"geslacht" => isset($_POST['geslacht']) ? $_POST['geslacht'] : "", 
+		"gewicht" => is_numeric($_POST['gewicht']) ? $_POST['gewicht'] : ""
+	);
 
+	if(count(array_filter($userInput)) != count($userInput)){
+		echo "U moet alle gegevens invullen!";
+
+		return;
+	}
 	//convert leeftijd die groter is dan 17 naar string die corenspondeert met gegevens in array
-	if ($userLeeftijd > 17) {
-		$userLeeftijd = ">17";
+	if ($userInput['leeftijd'] > 17) {
+		$userInput['leeftijd'] = ">17";
 	}
 
-	$userBMI = berekenBMI($userGewicht, $userLengte);
+	$userBMI = berekenBMI($userInput["gewicht"], $userInput["lengte"]);
 
 		$teLicht = array
 			(
@@ -53,25 +64,24 @@
 		}
 		return $geslachtsIndex;
 	}
-
 	function userAdvies(float $bmi) {
-		global $obesitas, $goedGewicht, $teLicht, $userGewicht, $userLeeftijd, $userGeslacht; 
+		global $obesitas, $goedGewicht, $teLicht, $userInput; 
 
 		if ($bmi == 0){
 			$uitkomst = "geen lengte en gewicht ingevult";
 		}
-		elseif ($bmi >= $obesitas[geslachtIndex($userGeslacht)][leeftijdInArray($userLeeftijd)]){
+		elseif ($bmi >= $obesitas[geslachtIndex($userInput["geslacht"])][leeftijdInArray($userInput["leeftijd"])]){
 			$uitkomst = "Ernstig overgewicht";
 		}
-		elseif ($bmi <= $goedGewicht[geslachtIndex($userGeslacht)][leeftijdInArray($userLeeftijd)]){
+		elseif ($bmi <= $goedGewicht[geslachtIndex($userInput["geslacht"])][leeftijdInArray($userInput["leeftijd"])]){
 			$uitkomst = "Goed Gewicht";
 		}
-		elseif ($bmi <= $teLicht[geslachtIndex($userGeslacht)][leeftijdInArray($userLeeftijd)]){
+		elseif ($bmi <= $teLicht[geslachtIndex($userInput["geslacht"])][leeftijdInArray($userInput["leeftijd"])]){
 			$uitkomst = "Ondergewicht";
 		}
 	return $uitkomst;
 	}
 
-	echo "uw bmi is " . berekenBMI($userGewicht, $userLengte) . " je hebt " . userAdvies($userBMI);
+	echo "uw bmi is " . berekenBMI($userInput["gewicht"], $userInput["lengte"]) . " je hebt " . userAdvies($userBMI);
 
 ?>

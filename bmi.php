@@ -5,28 +5,20 @@
         <title>Project 2</title>
         <meta name="description" content="Project 2 Gezond Eten.">
         <meta name="author" content="Justin Alink">
-
+        <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/standaard-style.css">
         <link rel="stylesheet" href="css/bmi-style.css">
         <!--<script defer type="text/javascript" src="js/main.js"></script>-->
     </head>
     <body>
-        <header>
-            <a href="index.php">
-                <img class="logo" src="images/32341-grapes-icon.png">
-            </a>
-            <h1>Bedrijf naam. Gezond Eten</h1>
-        </header>
-        <div id="nav-bar">
-            <nav>
-                <a class="nav-item" href="schijfvanvijf.php">Schijf van vijf</a>
-                <a class="nav-item" href="recepten.php">Recepten</a>
-                <a class="nav-item" id="active-tab" href="bmi.php">Bereken BMI</a>
-                <a class="nav-item" href="gezondeten.php">Gezond Eten</a>
-                <a class="nav-item" href="vragenlijst.php">Vragenlijst</a>
-                <a class="nav-item" href="svvgame.php">SvV Game</a>
-            </nav>
-        </div>
+        <?php 
+            global $activePage;
+            $activePage = "bmi";
+
+            include "includes/header.php";
+            include "includes/nav.php";
+        ?>
+
         <div id="inleiding">
             <h1>Bereken BMI</h1>
         </div>
@@ -44,25 +36,35 @@
             </p>
         </div>
         <hr>
-        <div id="inhoud-bmi">
-        <!-- <?php include 'includes/BMI-Berekenaar.php'; ?> -->
-            <div id="user-input">
-
+        <div id="inhoud-bmi" class="row">
+            <div id="user-input" class="col col-25">
+                <form method="post">
+                    <div id="text">
+                        <label for="gewicht">Gewicht in KG: </label>
+                        <input type="text" class="userbmi" name="gewicht" placeholder="Vul uw gewicht in">
+                        <label for="lengte">Lengte in CM: </label>
+                        <input type="text" class="userbmi" name="lengte" placeholder="Vul uw lengte in">
+                        <label for="leeftijd">Leeftijd: </label>
+                        <input type="text" class="userbmi" name="leeftijd" placeholder="vul uw leeftijd in">
+                    </div>
+                    <div id="radio">
+                        <label for="geslacht">Geslacht: </label><br>
+                        <label for="geslacht">Man: </label>
+                        <input type="radio" class="userbmi" name="geslacht" value="Man">
+                        <label for="gelacht">Vrouw: </label>
+                        <input type="radio" class="userbmi" name="geslacht" value="Vrouw">
+                    </div>
+                    <input type="submit" Value="Submit" class="userbmi" name="submit">
+                </form>
+            </div>
+            <div id="result" class="col col-75">
+                <?php 
+                    include 'includes/BMI-Berekenaar.php'   
+                ?>
             </div>
         </div>
-        <footer>
-
-            <div id="footer-logo">
-                <img id="footer-logo" src="images/32341-grapes-icon.png">
-            </div>
-            <div id="contact-gegevens">
-                <h1>Contact Gegevens</h1>
-                <ul>
-                    <li>Telefoon nummer: 06123456</li>
-                    <li>Email: website@project2.nl</li>
-                    <li></li>
-                </ul>
-            </div>
-        </footer>
+        <?php
+            include "includes/footer.php";
+        ?>
     </body>
 </html>

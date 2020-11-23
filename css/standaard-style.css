@@ -1,7 +1,9 @@
+
 body{
     margin: 0px;
+    font-family:verdana;
 }
-#nav-bar{
+nav#sticky{
     width: 100%;
     list-style-type: none;
     margin: 0;
@@ -21,7 +23,7 @@ body{
 a.nav-item:hover:not(#active-tab){
     background-color: #6c0070;
 }
-#active-tab{
+.active-tab{
     background-color: #e64ad9;
 }
 header{
