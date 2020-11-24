@@ -1,16 +1,16 @@
 var items = [
     {
-        aantal:0,
+        aantal: 0,
         basisPrijs: 10,
         aantalPerSeconde: 0.5,
     },
     {
-        aantal:0,
+        aantal: 0,
         basisPrijs: 100,
         aantalPerSeconde: 2,
     },
     {
-        aantal:0,
+        aantal: 0,
         basisPrijs: 500,
         aantalPerSeconde: 5,
     }
@@ -22,27 +22,27 @@ document.getElementById("item1").addEventListener("click", clickedItem1);
 document.getElementById("item2").addEventListener("click", clickedItem2);
 document.getElementById("item3").addEventListener("click", clickedItem3);
 
-function clickedHoofdFruit(){
-    aantal +=getAantalPerClick();
+function clickedHoofdFruit() {
+    aantal += getAantalPerClick();
     updateStats();
 }
-function clickedItem1(){
+function clickedItem1() {
     var itemData = items[0];
-    if(aantal < itemData.basisPrijs){
+    if (aantal < itemData.basisPrijs) {
         return;
     }
     aantal -= itemData.basisPrijs;
-    itemData.basisPrijs = Math.round(itemData.basisPrijs  * 1.10);
+    itemData.basisPrijs = Math.round(itemData.basisPrijs * 1.10);
     itemData.aantal += 1;
     updateStats()
 }
-function clickedItem2(){
+function clickedItem2() {
     alert("Item2");
 }
-function clickedItem3(){
+function clickedItem3() {
     alert("Item3");
 }
-function updateStats(){
+function updateStats() {
     document.getElementById("fruitAantal").innerText = aantal;
     document.getElementById("item1Prijs").innerText = items[0].basisPrijs;
     document.getElementById("item1Aantal").innerText = items[0].aantal;
@@ -52,14 +52,14 @@ function updateStats(){
     document.getElementById("item3Aantal").innerText = items[2].aantal;
     document.getElementById("fruitPerSeconde").innerText = getAantalPerSeconde();
 }
-function getAantalPerClick(){
+function getAantalPerClick() {
     return 1;
 }
-function getAantalPerSeconde(){
+function getAantalPerSeconde() {
     return items[0].aantal * items[0].aantalPerSeconde;
 }
 setInterval(() => {
-    aantal +=getAantalPerSeconde();
+    aantal += getAantalPerSeconde();
     updateStats();
 }, 1000);
 updateStats()

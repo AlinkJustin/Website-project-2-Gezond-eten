@@ -12,5 +12,5 @@ function isActivePage($currentNavItem) {
     <a class="nav-item <?php isActivePage("bmi"); ?>" href="bmi.php">Bereken BMI</a>
     <a class="nav-item <?php isActivePage("gezondeten"); ?>" href="gezondeten.php">Gezond Eten</a>
     <a class="nav-item <?php isActivePage("vragenlijst"); ?>" href="vragenlijst.php">Vragenlijst</a>
-    <a class="nav-item <?php isActivePage("svvgame"); ?>" href="svvgame.php">SvV Game</a>
+    <a class="nav-item <?php isActivePage("svvgame"); ?>" href="svvgame.php">Fruit Clicker</a>
 </nav>

@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-with, initial-scale=1.0"> 
-        <title>Project 2</title>
-        <meta name="description" content="Project 2 Gezond Eten.">
-        <meta name="author" content="Justin Alink">
 
-        <script defer src="scripts/Vragenlijst.js"></script>
+<head>
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <title>Project 2</title>
+    <meta name="description" content="Project 2 Gezond Eten.">
+    <meta name="author" content="Justin Alink">
 
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/standaard-style.css">
-        <link rel="stylesheet" href="css/vragenlijst-style.css">
-        <!--<script defer type="text/javascript" src="js/main.js"></script>-->
-    </head>
-    <body>
-        <?php 
-                    global $activePage;
-                    $activePage = "vragenlijst";
-                    
-            include "includes/header.php";
-            include "includes/nav.php";
-        ?>
+    <script defer src="scripts/Vragenlijst.js"></script>
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/standaard-style.css">
+    <link rel="stylesheet" href="css/vragenlijst-style.css">
+    <!--<script defer type="text/javascript" src="js/main.js"></script>-->
+</head>
+
+<body>
+    <?php
+    global $activePage;
+    $activePage = "vragenlijst";
+
+    include "includes/header.php";
+    include "includes/nav.php";
+    ?>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -57,8 +59,9 @@
             </div>
         </div>
     </div>
-        <?php
-            include "includes/footer.php"
-        ?>
-    </body>
+    <?php
+    include "includes/footer.php"
+    ?>
+</body>
+
 </html>

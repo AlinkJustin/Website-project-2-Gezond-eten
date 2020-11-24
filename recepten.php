@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-with, initial-scale=1.0"> 
-        <title>Project 2</title>
-        <meta name="description" content="Project 2 Gezond Eten.">
-        <meta name="author" content="Justin Alink">
 
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/standaard-style.css">
-        <link rel="stylesheet" href="css/recepten-style.css">
-        <!--<script defer type="text/javascript" src="js/main.js"></script>-->
-    </head>
-    <body>
-        <?php 
-            global $activePage;
-            $activePage = "recepten";
+<head>
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <title>Project 2</title>
+    <meta name="description" content="Project 2 Gezond Eten.">
+    <meta name="author" content="Justin Alink">
 
-            include "includes/header.php";
-            include "includes/nav.php";
-        ?>
-   <div class="container">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/standaard-style.css">
+    <link rel="stylesheet" href="css/recepten-style.css">
+    <!--<script defer type="text/javascript" src="js/main.js"></script>-->
+</head>
+
+<body>
+    <?php
+    global $activePage;
+    $activePage = "recepten";
+
+    include "includes/header.php";
+    include "includes/nav.php";
+    ?>
+    <div class="container">
         <div class="row">
             <div class="col">
                 <h1>recepten</h1>
@@ -49,8 +51,9 @@
             </div>
         </div>
     </div>
-        <?php
-            include "includes/footer.php";
-        ?>
-    </body>
+    <?php
+    include "includes/footer.php";
+    ?>
+</body>
+
 </html>
