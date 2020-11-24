@@ -6,6 +6,8 @@
         <meta name="description" content="Project 2 Gezond Eten.">
         <meta name="author" content="Justin Alink">
 
+        <script defer src="scripts/Vragenlijst.js"></script>
+
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/standaard-style.css">
         <link rel="stylesheet" href="css/vragenlijst-style.css">
@@ -44,8 +46,14 @@
                 </div>
 
                 <hr>
+                <button id="startQuiz">Start Quiz</button>
+                <div id="vragenlijst">
 
+                </div>
+                <button id="submit">Submit Quiz</button>
+                <div id="resultaat">
 
+                </div>
             </div>
         </div>
     </div>

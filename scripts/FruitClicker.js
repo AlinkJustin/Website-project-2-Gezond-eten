@@ -46,7 +46,9 @@ function updateStats(){
     document.getElementById("fruitAantal").innerText = aantal;
     document.getElementById("item1Prijs").innerText = items[0].basisPrijs;
     document.getElementById("item1Aantal").innerText = items[0].aantal;
+    document.getElementById("item2Prijs").innerText = items[1].basisPrijs;
     document.getElementById("item2Aantal").innerText = items[1].aantal;
+    document.getElementById("item3Prijs").innerText = items[2].basisPrijs;
     document.getElementById("item3Aantal").innerText = items[2].aantal;
     document.getElementById("fruitPerSeconde").innerText = getAantalPerSeconde();
 }

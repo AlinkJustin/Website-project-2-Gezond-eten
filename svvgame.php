@@ -53,7 +53,9 @@
                         aantal Fruit: <span id="fruitAantal"></span><br>
                         prijs Item 1: <span id="item1Prijs"></span><br>
                         aantal Item 1: <span id="item1Aantal"></span><br>
+                        prijs Item 2: <span id="item2Prijs"></span><br>
                         aantal Item 2: <span id="item2Aantal"></span><br>
+                        prijs Item 3: <span id="item3Prijs"></span><br>
                         aantal Item 3: <span id="item3Aantal"></span><br>
                         Fps: <span id="fruitPerSeconde"></span><br>
                     </div>
