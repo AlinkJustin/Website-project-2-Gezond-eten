@@ -7,7 +7,12 @@
     height: 250px;
 }
 
-#tiles .tile a:hover{
+#tiles .tile a:hover {
     opacity: 1;
     transition: 0.5s;
+}
+
+.tile-image {
+    max-width: 100%;
+    max-height: 100%;
 }

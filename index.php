@@ -46,12 +46,36 @@
                 <hr>
 
                 <div id="tiles" class="row">
-                    <div class="tile col col-33 col-m-100"><a href="schijfvanvijf.php" id="schijfvanvijf">1</a></div>
-                    <div class="tile col col-33 col-m-100"><a href="recepten.php" id="recepten">2</a></div>
-                    <div class="tile col col-33 col-m-100"><a href="bmi.php" id="bmi">3</a></div>
-                    <div class="tile col col-33 col-m-100"><a href="gezondeten.php" id="gezondeten">4</a></div>
-                    <div class="tile col col-33 col-m-100"><a href="vragenlijst.php" id="vragenlijst">5</a></div>
-                    <div class="tile col col-33 col-m-100"><a href="svvgame.php" id="ssv-game">6</a></div>
+                    <div class="tile col col-33 col-m-100">
+                        <a href="schijfvanvijf.php" id="schijfvanvijf">
+                            <img class="tile-image" src="images/nieuwe-schijf-van-vijf-pleit-variatie-en-onbewerkte-producten.jpg">
+                        </a>
+                    </div>
+                    <div class="tile col col-33 col-m-100">
+                        <a href="recepten.php" id="recepten">
+                            <img class="tile-image" src="images/recipes-banner.jpg">
+                        </a>
+                    </div>
+                    <div class="tile col col-33 col-m-100">
+                        <a href="bmi.php" id="bmi">
+                            <img class="tile-image" src="images/BMI-berekenen-1.jpg">
+                        </a>
+                    </div>
+                    <div class="tile col col-33 col-m-100">
+                        <a href="gezondeten.php" id="gezondeten">
+                            <img class="tile-image" src="images/6000-9-artikelen.jpg">
+                        </a>
+                    </div>
+                    <div class="tile col col-33 col-m-100">
+                        <a href="vragenlijst.php" id="vragenlijst">
+                            <img class="tile-image" src="images/vragenlijst-webdesign.jpg">
+                        </a>
+                    </div>
+                    <div class="tile col col-33 col-m-100">
+                        <a href="svvgame.php" id="ssv-game">
+                            <img class="tile-image" src="images/8e502ebced2324e6b580e9e5d984cead.png">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

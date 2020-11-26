@@ -10,13 +10,16 @@
     transition-duration: 0.4s;
     margin-bottom: 20px;
 }
-.upgrade-button:hover{
+
+.upgrade-button:hover {
     background-color: #e64ad9;
 }
-#hoofdFruit:active{
+
+#hoofdFruit:active {
     transform: translateY(4px);
 }
-#hoofdfruit{
+
+#hoofdfruit {
     background-image: url("../images/kleineappel.png");
     width: 20vw;
     height: 20vw;
@@ -25,13 +28,16 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-.center-block{
+
+.center-block {
     text-align: center;
 }
-.center-block #hoofdfruit{
+
+.center-block #hoofdfruit {
     margin-left: auto;
     margin-right: auto;
 }
-#game-container{
+
+#game-container {
     margin: 20px 0;
 }

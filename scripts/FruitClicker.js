@@ -58,6 +58,7 @@ function clickedHoofdFruit() {
 }
 function clickedItem(itemData){
     if (aantal < itemData.basisPrijs) {
+        alert("Je hebt nog niet genoeg fruit om dit te kopen!");
         return;
     }
     aantal -= itemData.basisPrijs;

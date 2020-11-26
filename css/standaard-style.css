@@ -1,55 +1,100 @@
-body{
+body {
     margin: 0px;
-    font-family:verdana;
+    font-family: verdana;
 }
-nav#sticky{
+
+nav#sticky {
     width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
     position: sticky;
     top: 0;
     z-index: 1;
-}a.nav-item{
+}
+
+.nav-item {
     float: left;
+}
+
+.nav-item a {
     color: white;
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-a.nav-item:hover:not(#active-tab){
+
+.nav-item a:hover:not(#active-tab) {
     background-color: #6c0070;
 }
-.active-tab{
+
+.clear {
+    clear: both;
+}
+
+.active-tab {
     background-color: #e64ad9;
 }
-header{
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    float: left;
+}
+
+header {
     padding: 4px;
     text-align: center;
     background: #4f0052;
     color: white;
     font-size: 15px;
 }
-header img.logo{
+
+header img.logo {
     width: 50px;
     height: 50px;
     float: left;
     padding: 12.5px;
 }
+
 #fruitschaal {
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%; 
+    border-radius: 50%;
     background-image: url('../images/OIP.jfif');
     width: 20vw;
     height: 20vw;
     background-position: center;
     background-size: cover;
 }
-footer{
+
+footer {
     background-color: #4f0052;
     margin: 0px 0px 0px 0px;
     padding: 0;
@@ -57,31 +102,33 @@ footer{
     font-size: 15px;
     display: flex;
 }
-div#contact-gegevens{
+
+div#contact-gegevens {
     margin: 10px 0px 0px 50px;
 }
-img#footer-logo{
+
+img#footer-logo {
     width: 75px;
     height: 75px;
     float: left;
     padding: 12.5px;
     display: flex;
 }
-div#footer-logo{
+
+div#footer-logo {
     align-self: center;
     padding: 0px 0px 0px 30px;
 }
-hr{
+
+hr {
     width: 100%;
     margin: 10px 0;
 }
-
 
 @media (max-width: 768px) {
     nav#sticky {
         position: inherit;
     }
-
     .nav-item {
         width: 100%;
     }

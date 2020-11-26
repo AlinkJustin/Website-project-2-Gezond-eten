@@ -47,24 +47,24 @@
                 <hr>
                 <div class="row">
                     <div id="recept1" class="col col-33 col-m-100">
-                        <a><img src="images/recepten/lekker broodje ofzo.jpg"></a>
+                        <a href="recepten/broodje.php"><img src="images/recepten/lekker broodje ofzo.jpg"></a>
                     </div>
                     <div id="recept2" class="col col-33 col-m-100">
-                        <a><img src="images/recepten/pasta carbonara.jpg"></a>
+                        <a href="recepten/pastaCarbonara.php"><img src="images/recepten/pasta carbonara.jpg"></a>
                     </div>
                     <div id="recept3" class="col col-33 col-m-100">
-                    <a><img src="images/recepten/pasta met vis.jpg"></a>
+                        <a href="recepten/pastaVis.php"><img src="images/recepten/pasta met vis.jpg"></a>
                     </div>
                 </div>
                 <div class="row">
                     <div id="recept4" class="col col-33 col-m-100">
-                        <a><img src="images/recepten/spruiten met ham.jpg"></a>
+                        <a href="recepten/spruiten.php"><img src="images/recepten/spruiten met ham.jpg"></a>
                     </div>
                     <div id="recept5" class="col col-33 col-m-100">
-                        <a><img src="images/recepten/taart.jpg"></a>
+                        <a href="recepten/taart.php"><img src="images/recepten/taart.jpg"></a>
                     </div>
                     <div id="recept6" class="col col-33 col-m-100">
-                        <a><img src="images/recepten/img_000847_445x297_JPG.jpg"></a>
+                        <a href="pizza.php"><img src="images/recepten/img_000847_445x297_JPG.jpg"></a>
                     </div>
                 </div>
             </div>

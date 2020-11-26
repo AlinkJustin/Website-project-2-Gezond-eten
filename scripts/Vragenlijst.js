@@ -69,7 +69,7 @@ const alleVragen = [
             b: "Antwoord B",
             c: "Antwoord C",
         },
-        correcteAntwoord: "a"
+        correcteAntwoord: "b"
     },
     {
         vraag: "Vraag 3",
@@ -78,7 +78,7 @@ const alleVragen = [
             b: "Antwoord B",
             c: "Antwoord C",
         },
-        correcteAntwoord: "a"
+        correcteAntwoord: "c"
     },
     {
         vraag: "Vraag 4",
@@ -88,8 +88,62 @@ const alleVragen = [
             c: "Antwoord C",
         },
         correcteAntwoord: "a"
+    },
+    {
+        vraag: "Vraag 5",
+        antwoorden: {
+            a: "Antwoord A",
+            b: "Antwoord B",
+            c: "Antwoord C",
+        },
+        correcteAntwoord: "b"
+    },
+    {
+        vraag: "Vraag 6",
+        antwoorden: {
+            a: "Antwoord A",
+            b: "Antwoord B",
+            c: "Antwoord C",
+        },
+        correcteAntwoord: "c"
+    },
+    {
+        vraag: "Vraag 7",
+        antwoorden: {
+            a: "Antwoord A",
+            b: "Antwoord B",
+            c: "Antwoord C",
+        },
+        correcteAntwoord: "a"
+    },
+    {
+        vraag: "Vraag 8",
+        antwoorden: {
+            a: "Antwoord A",
+            b: "Antwoord B",
+            c: "Antwoord C",
+        },
+        correcteAntwoord: "b"
+    },
+    {
+        vraag: "Vraag 9",
+        antwoorden: {
+            a: "Antwoord A",
+            b: "Antwoord B",
+            c: "Antwoord C",
+        },
+        correcteAntwoord: "c"
+    },
+    {
+        vraag: "Vraag 10",
+        antwoorden: {
+            a: "Antwoord A",
+            b: "Antwoord B",
+            c: "Antwoord C",
+        },
+        correcteAntwoord: "a"
     }
 ];
 
-startQuizButton.addEventListener("click", startQuiz);
+startQuiz()
 submitButton.addEventListener("click", getResultaat);

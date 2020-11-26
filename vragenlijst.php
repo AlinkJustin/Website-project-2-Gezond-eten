@@ -47,14 +47,17 @@
                     </div>
                 </div>
                 <hr>
-                <div class="col col-50 col-m-100">
-                    <button id="startQuiz">Start Quiz</button>
-                    <div id="vragenlijst">
+                <div class="row">
+                    <div id="vragenlijst-container" class="col col-m-100">
+                        <div id="vragenlijst">
 
-                    </div>
-                    <button id="submit">Submit Quiz</button>
-                    <div id="resultaat">
+                        </div>
+                        <div>
+                            <button id="submit">Submit Quiz</button>
+                        </div>
+                        <div id="resultaat">
 
+                        </div>
                     </div>
                 </div>
             </div>

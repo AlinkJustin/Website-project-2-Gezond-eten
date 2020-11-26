@@ -1,0 +1,8 @@
+#vragenlijst-container {
+    text-align: center;
+}
+
+.vraag {
+    font-size: 25px;
+    margin: 20px;
+}
