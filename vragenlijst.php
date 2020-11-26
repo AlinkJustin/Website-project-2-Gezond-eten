@@ -46,15 +46,16 @@
                         </p>
                     </div>
                 </div>
-
                 <hr>
-                <button id="startQuiz">Start Quiz</button>
-                <div id="vragenlijst">
+                <div class="col col-50 col-m-100">
+                    <button id="startQuiz">Start Quiz</button>
+                    <div id="vragenlijst">
 
-                </div>
-                <button id="submit">Submit Quiz</button>
-                <div id="resultaat">
+                    </div>
+                    <button id="submit">Submit Quiz</button>
+                    <div id="resultaat">
 
+                    </div>
                 </div>
             </div>
         </div>

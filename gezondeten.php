@@ -44,9 +44,38 @@
                         </p>
                     </div>
                 </div>
-
                 <hr>
-
+                <div class="col col-75 col-m-100">
+                    <h5>
+                        Gezond eten betekent vooral natuurlijke en gevarieerde voeding.
+                        Gouden regel voor gezond eten is daarom afwisseling en maat houden.
+                        En een gezonde, evenwichtige voeding kan veel vervelende aandoeningen voorkomen.
+                        Ontdek hoe dieet en levensstijl uw welzijn kunnen beïnvloeden.
+                    </h5>
+                    <h4>
+                        Wat is eigenlijk gezond eten?
+                    </h4>
+                    <p>
+                        De meningen over gezond eten lopen nogal uiteen.
+                        In talrijke onderzoeken en studies worden standpunten gehuldigd die vaak haaks op elkaar staan.
+                        Tientallen jaren bijvoorbeeld werd vet verfoeid,
+                        maar tegenwoordig zijn essentiële vetzuren zoals
+                        Omega-3 en Omega-6 door voedingsdeskundigen weer in ere hersteld.
+                        <br>
+                        <br>
+                        Dat de voedingswetenschappers tot zulke uiteenlopende opvattingen komen,
+                        wordt ook veroorzaakt door de aard van hun onderzoeksopdracht.
+                        Ons fysieke welzijn wordt door veel zaken beïnvloed,
+                        niet alleen door wat we eten.
+                        Daar komt bij dat nauwkeurige onderzoeken naar de eetgewoonten van mensen duur en ingewikkeld zijn.
+                        <br>
+                        <br>
+                        Vaak beperken onderzoeken zich alleen tot bepaalde deelgebieden of wijden ze zich aan een enkel ingrediënt,
+                        zonder andere elementen daarbij te betrekken. 
+                        Waterdichte bewijzen van positieve effecten van afzonderlijke voedingsmiddelen zijn er bijna niet. 
+                        Daarom moeten geïnteresseerde leken al te nadrukkelijke beloftes en aanbevelingen met een gezonde portie argwaan bekijken.
+                    </p>
+                </div>
 
             </div>
         </div>
