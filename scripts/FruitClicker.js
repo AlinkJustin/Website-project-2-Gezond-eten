@@ -26,8 +26,7 @@ function clickedHoofdFruit() {
     aantal += getAantalPerClick();
     updateStats();
 }
-function clickedItem1() {
-    var itemData = items[0];
+function clickedItem(itemData){
     if (aantal < itemData.basisPrijs) {
         return;
     }
@@ -36,14 +35,20 @@ function clickedItem1() {
     itemData.aantal += 1;
     updateStats()
 }
+function clickedItem1() {
+    var itemData = items[0];
+    clickedItem(itemData);
+}
 function clickedItem2() {
-    alert("Item2");
+    var itemData = items[1];
+    clickedItem(itemData);
 }
 function clickedItem3() {
-    alert("Item3");
+    var itemData = items[2];
+    clickedItem(itemData);
 }
 function updateStats() {
-    document.getElementById("fruitAantal").innerText = aantal;
+    document.getElementById("fruitAantal").innerText = Math.floor(aantal);
     document.getElementById("item1Prijs").innerText = items[0].basisPrijs;
     document.getElementById("item1Aantal").innerText = items[0].aantal;
     document.getElementById("item2Prijs").innerText = items[1].basisPrijs;
@@ -56,22 +61,15 @@ function getAantalPerClick() {
     return 1;
 }
 function getAantalPerSeconde() {
-    return items[0].aantal * items[0].aantalPerSeconde;
+    var totaal = 0;
+    for(var i = 0; i < items.length; i++){
+      totaal += items[i].aantal * items[i].aantalPerSeconde;
+    }
+        return totaal;
+    
 }
 setInterval(() => {
     aantal += getAantalPerSeconde();
     updateStats();
 }, 1000);
-updateStats()
-
-// aantal = upgradebaar, begint bij 1
-// upgrade kost veel
-// teller begint bij 0
-// upgrade 1 kost 10 om mee te beginnen.
-// bij iedere aankoop 10% bovenop basis kosten, nieuwe aantal is nieuwe basis kosten,
-// zodat upgrade later erg duur wordt
-// upgrade 1 geeft 0.5 Fruit per seconden
-// upgrade 2 geeft 2 Fps
-// upgrade 3 geeft 5 Fps
-// latere upgrades komen nog
-// kan een oneindig aantal upgrades van alle upgrades kopen
+updateStats();
