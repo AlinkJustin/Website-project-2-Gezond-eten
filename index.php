@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
     <title>Project 2</title>
@@ -12,32 +11,29 @@
     <link rel="stylesheet" href="css/index-style.css">
     <!--<script defer type="text/javascript" src="js/main.js"></script>-->
 </head>
-
 <body>
     <?php
     include "includes/header.php";
     include "includes/nav.php";
     ?>
-
     <div class="container">
         <div id="inleiding" class="row">
             <div id="paragraph" class="col">
-                <h1>Welkom op deze site</h1>
-
                 <div class="row inleiding">
                     <div class="col col-25 col-m-100">
                         <!--<img id="fruitschaal" src="images/OIP.jfif">-->
                         <div id="fruitschaal"></div>
                     </div>
                     <div class="col col-75 col-m-100">
+                    <strong><h1>Welkom op deze site!</h1></strong>
                         <p class="inleiding-text">
-                            deze site nogwat ik ben heir echr klaar merrr ee teringzooiii
+                            op deze site vind je een aantal dingen over het thema: <strong>Gezond Eten</strong>!
+                            <br>
+                            Met de insteek, om je te informeren over wat gezond eten nou precies is.
                         </p>
                     </div>
                 </div>
-
                 <hr>
-
                 <div id="tiles" class="row">
                     <div class="tile col col-33 col-m-100">
                         <a href="schijfvanvijf.php" id="schijfvanvijf">

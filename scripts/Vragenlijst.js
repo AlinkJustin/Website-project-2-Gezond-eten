@@ -8,13 +8,13 @@ function startQuiz() {
 
             for (letter in huidigeVraag.antwoorden) {
 
-            antwoorden.push(
-                `<label>
+                antwoorden.push(
+                    `<label>
                 <input type="radio" name="vraag${vraagNummer}" value="${letter}">
                 ${letter} :
                 ${huidigeVraag.antwoorden[letter]}
                 </label>`
-            );
+                );
             }
 
             output.push(
@@ -28,22 +28,24 @@ function startQuiz() {
 }
 
 function getResultaat() {
-   const antwoordContainers = vragenlijstContainer.querySelectorAll('.antwoorden');
+    const antwoordContainers = vragenlijstContainer.querySelectorAll('.antwoorden');
 
-   let correctAantal = 0;
+    let correctAantal = 0;
 
-   alleVragen.forEach( (huidigeVraag, vraagNummer ) => {
+    alleVragen.forEach((huidigeVraag, vraagNummer) => {
 
-    const antwoordContainer = antwoordContainers[vraagNummer];
-    const selector = `input[name=vraag${vraagNummer}]:checked`;
-    const gebruikerAntwoord = (antwoordContainer.querySelector(selector) || {}).value;
+        const antwoordContainer = antwoordContainers[vraagNummer];
+        const selector = `input[name=vraag${vraagNummer}]:checked`;
+        const gebruikerAntwoord = (antwoordContainer.querySelector(selector) || {}).value;
 
-    if(gebruikerAntwoord === huidigeVraag.correcteAntwoord){
-        correctAantal++;
-    }
-   }
-   );
-   resultaatContainer.innerHTML = `${correctAantal} van de ${alleVragen.length} vragen goed`; 
+        if (gebruikerAntwoord === huidigeVraag.correcteAntwoord) {
+            correctAantal++;
+            antwoordContainers[vraagNummer].style.color = 'lightgreen';
+        } else {
+            antwoordContainers[vraagNummer].style.color = 'red';
+        }
+    });
+    resultaatContainer.innerHTML = `${correctAantal} van de ${alleVragen.length} vragen goed`;
 }
 
 
@@ -52,94 +54,93 @@ const vragenlijstContainer = document.getElementById("vragenlijst");
 const submitButton = document.getElementById("submit");
 const resultaatContainer = document.getElementById("resultaat");
 
-const alleVragen = [
-    {
-        vraag: "Vraag 1:",
+const alleVragen = [{
+        vraag: "Vraag 1: Wat hoort niet in de schijf van 5?",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "Biefstuk",
+            b: "Volkoren brood",
+            c: "Yoghurt",
         },
         correcteAntwoord: "a"
     },
     {
-        vraag: "Vraag 2",
+        vraag: "Vraag 2: Van welk ontbijt krijg je de meeste energie?",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
-        },
-        correcteAntwoord: "b"
-    },
-    {
-        vraag: "Vraag 3",
-        antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "Havermout",
+            b: "Mars",
+            c: "Zakje chips",
         },
         correcteAntwoord: "c"
     },
     {
-        vraag: "Vraag 4",
+        vraag: "Vraag 3: Hoeveel stuks fruit moet je minimaal per dag eten?",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "3",
+            b: "4",
+            c: "1",
+        },
+        correcteAntwoord: "c"
+    },
+    {
+        vraag: "Vraag 4: Wat bevat meer vezels?",
+        antwoorden: {
+            a: "Bruin brood",
+            b: "Wit brood",
+            c: "Beschuit",
         },
         correcteAntwoord: "a"
     },
     {
-        vraag: "Vraag 5",
+        vraag: "Vraag 5: Welke vitamine maak je aan onder invloed van zonlicht?",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "Vitamine C",
+            b: "Vitamine D",
+            c: "Vitamine B:",
         },
         correcteAntwoord: "b"
     },
     {
-        vraag: "Vraag 6",
+        vraag: "Vraag 6: Waardoor ontstaat overgewicht?",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "Omdat je te weinig spieren in je lichaam hebt",
+            b: "Doordat je je huiswerk niet maakt ",
+            c: "Doordat je meer calorieën binnen krijgt dan je lichaam verbruikt",
         },
         correcteAntwoord: "c"
     },
     {
-        vraag: "Vraag 7",
+        vraag: "Vraag 7: Je kunt in plaats van fruit net zo goed 2 glazen vruchtensap drinken?",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "Onjuist",
+            b: "Misschien",
+            c: "Juist",
         },
         correcteAntwoord: "a"
     },
     {
-        vraag: "Vraag 8",
+        vraag: "Vraag 8: Naast gezonde voeding is het belangrijk voor een gezond leven om:",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
-        },
-        correcteAntwoord: "b"
-    },
-    {
-        vraag: "Vraag 9",
-        antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "Te lachen",
+            b: "Voldoende te bewegen",
+            c: "Al het bovenstaande",
         },
         correcteAntwoord: "c"
     },
     {
-        vraag: "Vraag 10",
+        vraag: "Vraag 9: Hoeveel liter vocht moet je minstens per dag drinken?",
         antwoorden: {
-            a: "Antwoord A",
-            b: "Antwoord B",
-            c: "Antwoord C",
+            a: "4 L ",
+            b: "500 ml",
+            c: "1,5 L",
+        },
+        correcteAntwoord: "c"
+    },
+    {
+        vraag: "Vraag 10: Wat zijn plantaardige voedingsmiddelen?",
+        antwoorden: {
+            a: "Voedingsmiddelen uit fruit",
+            b: "Voedingsmiddelen uit de grond",
+            c: "Voedingsmiddelen afkomstig van dieren",
         },
         correcteAntwoord: "a"
     }

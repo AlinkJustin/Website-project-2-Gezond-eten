@@ -29,7 +29,7 @@
 
                 <div class="row inleiding">
                     <div class="col-25 col-m-100">
-                       <img id="bmi-foto"src="images/BMI-berekenen-1.jpg">
+                        <img id="bmi-foto" src="images/BMI-berekenen-1.jpg">
                     </div>
                     <div class="col-75 col-m-100">
                         <p class="inleiding-text">
@@ -58,13 +58,38 @@
                         <label for="gelacht">Vrouw: </label>
                         <input type="radio" class="userbmi" name="geslacht" value="Vrouw">
                     </div>
-                    <input type="submit" Value="Submit" class="userbmi" name="submit">
+                    <input id="bmi-submit" type="submit" Value="Submit" class="userbmi" name="submit">
                 </form>
             </div>
-            <div id="result" class="col col-75 col-m-100">
-                <?php
-                include 'includes/BMI-Berekenaar.php'
-                ?>
+            <div id="result" class="center col col-75 col-m-100">
+                <div class="col center col-50 col-m-100">
+                    <?php
+                    include 'includes/BMI-Berekenaar.php'
+                    ?>
+                    <br>
+                    <h3>
+                        Wat is je BMI?
+                    </h3>
+                    <p>
+                        BMI is een afkorting voor Body Mass Index. Dit is de verhouding tussen je lengte en je gewicht.
+                        Aan de hand van je BMI wordt gekeken naar de gezondheidsrisico’s van die verhouding voor je lijf.
+                        Met een makkelijke formule kun je je eigen BMI berekenen. Dit is die formule:
+                            <br>
+                        <strong>Massa (gewicht in kilogram) / lengte² (lengte in meters in het kwadraat) = BMI</strong>
+                        <br>
+                        Stel je bent 1 meter en 76 centimeter lang en je weeg 74 kilo.
+                        Dan neem je gewicht (74 kilo) en deel je dat getal door je lengte in het kwadraat 1,76 x 1,76 = 3,09.
+                        Je krijgt dan dus 74/3,09 = 23.9. Je BMI is dus 23.9. Maar is dat goed? Daarvoor pakken we er een schema bij.
+                        <br>
+                        <h5>Is je BMI…</h5>
+                        <ul>
+                            <li>… minder dan 18,5 dan is er sprake van ondergewicht.</li>
+                            <li>… tussen de 18,5 en 24,9 dan heb je een gezond gewicht</li>
+                            <li>… tussen de 25 en 29,9 dan is er sprake van overgewicht</li>
+                            <li>… boven de 30 dan is er sprake van obesitas</li>
+                        </ul>
+                    </p>
+                </div>
             </div>
         </div>
     </div>

@@ -32,7 +32,7 @@
 
                     </div>
                     <div class="col col-75 col-m-100">
-                        <p class="inleiding">
+                        <p class="inleiding-text">
                             deze site bevat de Fruit Clicker game (Cookie Clicker Clone), het doel is om zo veel mogelijk FPS te krijgen (Fruit Per Seconden)
                         </p>
                     </div>

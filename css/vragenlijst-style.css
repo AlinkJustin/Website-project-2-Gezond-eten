@@ -1,8 +1,41 @@
 #vragenlijst-container {
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .vraag {
     font-size: 25px;
     margin: 20px;
+}
+
+.antwoorden {
+    margin-bottom: 20px;
+}
+
+.antwoorden label {
+    display: block;
+}
+
+#submit {
+    width: 25%;
+    height: 75px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e64ad9;
+    border: none;
+    border-radius: 15px;
+}
+
+#submit:hover {
+    background-color: #4f0052
+}
+
+#knop {
+    margin: 10px;
 }

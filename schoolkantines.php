@@ -9,7 +9,7 @@
     <link rel="icon" href="favicon.ico" type="ico" sizes="32x32">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/standaard-style.css">
-    <link rel="stylesheet" href="css/schijfvanvijf-style.css">
+    <link rel="stylesheet" href="css/schoolkantines-style.css">
     <!--<script defer type="text/javascript" src="js/main.js"></script>-->
 </head>
 
@@ -24,108 +24,99 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>schijfvanvijf</h1>
+                <h1>Artikel School kantines</h1>
 
                 <div class="row inleiding">
                     <div class="col col-25 col-m-100">
                         <!--<img id="fruitschaal" src="images/OIP.jfif">-->
-                        <div id="fruitschaal"></div>
+                        <img src="images/6000-9-artikelen.jpg">
                     </div>
                     <div class="col col-75 col-m-100">
-                        <p id="inleiding-text">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                            Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                        <p class="inleiding-text">
+                            Een informative artikel over de school kantines <br><em>zie bron</em>
                         </p>
                     </div>
                 </div>
                 <hr>
                 <div class="row">
-                    <div class="col col-75 col-m-100">
-                        <h5>
-                            Gezond eten betekent vooral natuurlijke en gevarieerde voeding.
-                            Gouden regel voor gezond eten is daarom afwisseling en maat houden.
-                            En een gezonde, evenwichtige voeding kan veel vervelende aandoeningen voorkomen.
-                            Ontdek hoe dieet en levensstijl uw welzijn kunnen beïnvloeden.
-                        </h5>
-                        <h4>
-                            Wat is eigenlijk gezond eten?
-                        </h4>
-                        <p>
-                            De meningen over gezond eten lopen nogal uiteen.
-                            In talrijke onderzoeken en studies worden standpunten gehuldigd die vaak haaks op elkaar staan.
-                            Tientallen jaren bijvoorbeeld werd vet verfoeid,
-                            maar tegenwoordig zijn essentiële vetzuren zoals
-                            Omega-3 en Omega-6 door voedingsdeskundigen weer in ere hersteld.
-                            <br>
-                            <br>
-                            Dat de voedingswetenschappers tot zulke uiteenlopende opvattingen komen,
-                            wordt ook veroorzaakt door de aard van hun onderzoeksopdracht.
-                            Ons fysieke welzijn wordt door veel zaken beïnvloed,
-                            niet alleen door wat we eten.
-                            Daar komt bij dat nauwkeurige onderzoeken naar de eetgewoonten van mensen duur en ingewikkeld zijn.
-                            <br>
-                            <br>
-                            Vaak beperken onderzoeken zich alleen tot bepaalde deelgebieden of wijden ze zich aan een enkel ingrediënt,
-                            zonder andere elementen daarbij te betrekken.
-                            Waterdichte bewijzen van positieve effecten van afzonderlijke voedingsmiddelen zijn er bijna niet.
-                            Daarom moeten geïnteresseerde leken al te nadrukkelijke beloftes en aanbevelingen met een gezonde portie argwaan bekijken.
-                        </p>
-                        <h4>
-                            Vijf tips om gezond te eten
-                        </h4>
-                        <p>Luister vooral naar uw eigen lichaam en eet bewust. Enkele eenvoudige principes kunnen daarbij helpen:</p>
-                        <ul>
-                            <li>
-                                <strong>Hoe gevarieerder, hoe beter.</strong> Granen bevatten andere voedingsstoffen dan noten.
-                                Om van alle vitamines en mineralen iets binnen te krijgen, moeten niet altijd dezelfde eetwaren op uw bord belanden.
-                                Dit geldt ook voor andere voedingsmiddelen:
-                                pasta, rijst of aardappelen, kool, venkel of spinazie, vlees, vis of kaas.
-                                Het is de mix die het doet.
-                            </li>
-                            <li>
-                                <strong>Houd maat</strong>. Wie regelmatig uit pure gewoonte veel zoetwaren of kaas naar binnen werkt,
-                                zal vroeg of laat waarschijnlijk de trek daarin verliezen.
-                                Geniet er liever bewust van en u zult meer plezier aan het eten beleven.
-                            </li>
-                            <li>
-                                <strong>Neem de tijd</strong>. Neem voldoende tijd om te eten en ook in de voorbereiding ervan.
-                                Wie dagelijks 4 uur televisie kijkt,
-                                heeft natuurlijk weinig tijd voor gezond eten.
-                                Maar wie een half uur meer investeert in het doen van de boodschappen en bijvoorbeeld eens een boerderijwinkel bezoekt,
-                                kan aanzienlijk meer en gezonder genieten.
-                            </li>
-                            <li>
-                                <strong>Gebruik natuurlijke voedingsmiddelen</strong>. Ons eten moet zo natuurlijk mogelijk zijn.
-                                Hoe minder behandeld, hoe groter de kans dat een levensmiddel alle belangrijke bestanddelen bevat.
-                                Nagenoeg elke bewerking vermindert de hoeveelheid waardevolle ingrediënten.
-                                Hoe verser en hoe minder bewerkt een levensmiddel is, des te volwaardiger is het.
-                            </li>
-                            <li>
-                                <strong>Drink je fit</strong>
-                                ! Een evenwichtige vochthuishouding is van wezenlijk belang voor onze gezondheid en onze prestaties.
-                                Niet alleen fysieke belasting en transpiratie verlangen vocht.
-                                Ook bij denkarbeid moeten men veel drinken om de waterbalans in het lichaam op peil te houden, en dat niet alleen bij hoge temperaturen.
-                                Geen wonder, want de mens bestaat voor 60% uit water. Zonder voldoende vocht zou onze bloedbaan de geest geven,
-                                voedingsstoffen zouden niet meer vervoerd kunnen worden naar onze cellen en we zouden uitdrogen.
-                                Het is dus erg belangrijk om de vochtbalans in evenwicht te houden.
-
-                            </li>
-                        </ul>
-                        <h4>
-                            Focus niet overdreven op gewicht
-                        </h4>
-                        <p>
-                            Veel mensen beginnen zich pas om hun voeding te bekommeren omdat ze ontevreden zijn over hun gewicht.
-                            Geen wonder. Volgens actuele cijfers kampt 65% van de mannen en ongeveer de helft van alle vrouwen met overgewicht.
-                            Een algemeen gangbare graadmeter voor overgewicht (obesitas) is de Body Mass Index (BMI),
-                            een verhouding die wordt berekend uit het lichaamsgewicht en de lengte.
-                        </p>
+                    <div class="col col-50 col-m-100">
+                    </div>
+                        <div class="col text-center col-75 col-m-100">
+                            <h2>
+                                Waarom het maar niet lukt om alle schoolkantines gezond te krijgen
+                            </h2>
+                            <h5>
+                                We zijn er al zo’n twee decennia mee bezig: gezonde schoolkantines.
+                                Hoewel er veel stappen in de goede richting worden gezet, lukt het maar niet om 100% van de schoolkantines gezond te krijgen.
+                                Hoe kan dat?
+                            </h5>
+                            <h4>
+                                Wat is eigenlijk gezond eten?
+                            </h4>
+                            <p>
+                                Al enkele tientallen jaren dijen we uit, inmiddels heeft bijna de helft van alle Nederlanders overgewicht.
+                                En dat terwijl we al zo’n vijftien jaar bezig zijn met allerlei actieplannen,
+                                convenanten en nu is ook het kersverse preventieakkoord van staatssecretaris Blokhuis van Volksgezondheid in werking getreden.
+                                Daarin staat dat in 2020 de helft van alle schoolkantines, zo’n 950, gezond moeten zijn.
+                                <br>
+                                <br>
+                                Opvallend,
+                                want in 2009 is de motie-Vendrik aangenomen door de Tweede Kamer waarin staat
+                                dat 100% van de schoolkantines gezond zouden moeten zijn in 2015.
+                                Helaas is dat destijds maar bij 105 van de 2000 schoolkantines gelukt.
+                                ‘Een mager resultaat,’ concludeert Agnes Wolbert,
+                                Tweede Kamerlid van de PvdA in 2015. Vervolgens is direct de ambitie doorgeschoven om per 1 januari 2017 alle schoolkantines gezond te krijgen.
+                                Ook dat is mislukt.
+                                <br>
+                                <br>
+                                Gemotiveerd zijn we met z’n allen zeker.
+                                Als je de maatregelen van het ministerie van Volksgezondheid van de afgelopen jaren erbij pakt,
+                                kom je tal van ‘met mooie woorden verpakte’ maatregelen voor bijvoorbeeld basisscholen tegen: het programma ‘Lekker Fit’,
+                                Super Shopper (leren om boodschappen te doen), Smaaklessen, en ga zo maar door.
+                                Genoeg goede bedoelingen, waar gaat het mis?
+                            </p>
+                            <h4>
+                                ‘Een gezonde schoolkantine heeft een kartrekker nodig’
+                            </h4>
+                            <p>
+                                ‘We zien dat er binnen een school echt een kartrekker moet zijn,’
+                                vertelt Astrid Postma-Smeets, expert Voeding & Gezondheid bij het Voedingscentrum.
+                                ‘Bijvoorbeeld iemand van de directie of iemand anders die in de school werkt en intrinsiek gemotiveerd is.
+                                Het succes hangt af van een persoon die het realiseert. Dat is ook gevaarlijk, want als die persoon wegvalt,
+                                moet je weer van voor af aan beginnen.’
+                                <br>
+                                <br>
+                                Daarnaast zijn er verschillende belangen binnen een school. ‘Sommige kantinedames lopen ergens al vijftien jaar rond,
+                                doen al vijftien jaar hetzelfde,
+                                stopt daar elke dag haar ziel en zaligheid in en dat moet ineens anders? Die mensen moet je soms overtuigen.’
+                                Daarnaast kan er een financiële prikkel zijn, betoogt Postma-Smeets. ‘Snoep- en frisdrankautomaten,
+                                die krijg je niet zomaar weg uit een school. Vaak verdient een school daar geld mee.’
+                                Waarom kunnen er geen banaantjes in plaats van die chocoladerepen in de automaten? ‘Dat is echt een cultuuromslag.
+                                Daarnaast denken veel scholen en kantinebeheerders dat ze een dip in hun inkomsten gaan zien als ze overstappen op gezondere producten.
+                                Dat is echt een misvatting,
+                                vaak is dat niet het geval,’ legt Postma-Smeets uit.
+                            </p>
+                            <h4>
+                                100% van de schoolkantines gezond, gaat dat lukken?
+                            </h4>
+                            <p>
+                                We zouden dit proces best in een stroomversnelling kunnen gooien, denkt Postma-Smeets.
+                                ‘Regelgeving zorgt ervoor dat het allemaal sneller gebeurt, maar zolang daar geen draagvlak voor is,
+                                doen we het op deze manier en zetten we deze stappen.’
+                                <br>
+                                <br>
+                                ‘Onze stip op de horizon is dat er niets ongezonds meer in de schoolkantine te vinden is,’ vertelt Postma-Smeets.
+                                ‘Maar tot die tijd maken we mooie stappen.’
+                                Het Voedingscentrum heeft een eigen ‘Schoolkantine Brigade’ die scholen helpt met het gezond maken van hun kantines.
+                                Scholen kunnen zelf hulp inschakelen, maar de brigade gaat ook op acquisitie.
+                                ‘In 2018 zijn er 463 ‘gezonde schoolkantine schalen’ uitgereikt door de brigade en dit jaar zijn er al 101 schalen uitgereikt.
+                                Onze doelstelling voor dit jaar is 650 schalen in totaal, dat zou zomaar eens kunnen lukken.’
+                            </p>
+                            <h6>
+                                <strong>Bron:</strong><a href="https://demonitor.kro-ncrv.nl/artikelen/waarom-het-maar-niet-lukt-om-alle-schoolkantines-gezond-te-krijgen">  
+                                        https://demonitor.kro-ncrv.nl/artikelen/waarom-het-maar-niet-lukt-om-alle-schoolkantines-gezond-te-krijgen</a>
+                            </h6>
+                        </div>
                     </div>
                 </div>
 

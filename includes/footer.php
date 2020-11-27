@@ -14,5 +14,9 @@ include_once("config.php");
         <li>Email: website@project2.nl</li>
         <li></li>
     </ul>
+    <h4><strong>Disclaimer!</strong></h4>
+    <p>
+        deze site is voor een school opdracht! en dus geen 'officiële' website.
+    </p>
 </div>
 </footer>

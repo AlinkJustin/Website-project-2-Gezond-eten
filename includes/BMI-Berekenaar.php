@@ -12,7 +12,7 @@
 	);
 
 	if(count(array_filter($userInput)) != count($userInput)){
-		echo "U moet alle gegevens invullen!";
+		echo "<h2>U moet alle gegevens invullen!</h2>";
 
 		return;
 	}
@@ -82,6 +82,6 @@
 	return $uitkomst;
 	}
 
-	echo "uw bmi is " . berekenBMI($userInput["gewicht"], $userInput["lengte"]) . " je hebt " . userAdvies($userBMI);
+	echo "<h2>uw bmi is ".berekenBMI($userInput["gewicht"], $userInput["lengte"])."<br> je hebt ".userAdvies($userBMI)."</h2>";
 
 ?>

@@ -8,6 +8,8 @@
     <meta name="author" content="Justin Alink">
     <link rel="icon" href="favicon.ico" type="ico" sizes="32x32">
     <script defer src="scripts/Vragenlijst.js"></script>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/standaard-style.css">
     <link rel="stylesheet" href="css/vragenlijst-style.css">
     <!--<script defer type="text/javascript" src="js/main.js"></script>-->
 </head>
@@ -23,33 +25,26 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>vragenlijst</h1>
+                <h1>Vragenlijst</h1>
 
                 <div class="row">
                     <div class="col col-25 col-m-100">
-                        <!--<img id="fruitschaal" src="images/OIP.jfif">-->
-                        <div id="fruitschaal"></div>
+                        <img src="images/vragenlijst-webdesign.jpg">
                     </div>
                     <div class="col col-75 col-m-100">
-                        <p id="placeholder">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                            Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                        <p class="inleiding-text">
+                            Test je kennis over het onderwerp Gezond Eten
+                            met deze quiz. 
                         </p>
                     </div>
                 </div>
                 <hr>
                 <div class="row">
-                    <div id="vragenlijst-container" class="col col-m-100">
+                    <div id="vragenlijst-container" class="col col-m-100 center">
                         <div id="vragenlijst">
 
                         </div>
-                        <div>
+                        <div id="knop">
                             <button id="submit">Submit Quiz</button>
                         </div>
                         <div id="resultaat">
