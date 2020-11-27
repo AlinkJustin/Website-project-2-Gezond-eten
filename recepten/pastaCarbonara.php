@@ -14,15 +14,55 @@
 
 <body>
     <?php
+       global $activePage;
+       $activePage = "recepten";
+   
     include "../includes/header.php";
     include "../includes/nav.php";
     ?>
 
     <div class="container">
-        <div id="inleiding" class="row">
-            <div id="paragraph" class="col">
-                <h1>Welkom op deze site</h1>
+        <div class="row">
+            <div class="col col-m-100">
+                <img src="../images/recepten/img_002226_1600x560_JPG.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-25 col-m-100">
 
+                <h2>Ingrediënten</h2>
+                <ul>
+                    <li>
+                        400 g spaghetti
+                    </li>
+                    <li>
+                        3 middelgrote eieren
+                    </li>
+                    <li>
+                        100 g belegen kaas
+                    </li>
+                    <li>
+                        125 ml verse slagroom
+                    </li>
+                    <li>
+                        8 plakjes bakbacon (vleeswaren)
+                    </li>
+                    <li>
+                        15 g verse peterselie
+                    </li>
+                </ul>
+            </div>
+            <div class="col col-50 col-m-100">
+                <h1>Bereiden</h1>
+                <p>
+                Ciabatta in vieren snijden. 
+                Elk stuk ciabatta in elektrisch tosti-apparaat of in broodrooster met tostiklem 2 à 3 minuten voorbakken.
+                In kom bieslook fijn knippen, roomkaas toevoegen en goed mengen. 
+                Op smaak brengen met zout en peper. Ciabatta doorsnijden. Elke helft van ciabatta aan één zijde met roomkaas besmeren. 
+                Eén helft beleggen met rivierkreeftjes. Andere helft van ciabatta met roomkaaszijde naar onder erop leggen. 
+                Op zelfde wijze overige stukken ciabatta beleggen. 
+                Tosti's in elektrisch tostiapparaat of in broodrooster met tostiklem in 3 à 6 minuten goudbruin bakken.
+                </p>
             </div>
         </div>
     </div>

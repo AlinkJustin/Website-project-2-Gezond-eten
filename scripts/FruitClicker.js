@@ -1,5 +1,4 @@
-var items = [
-    {
+var items = [{
         aantal: 0,
         basisPrijs: 10,
         aantalPerSeconde: 0.5,
@@ -56,7 +55,8 @@ function clickedHoofdFruit() {
     aantal += getAantalPerClick();
     updateStats();
 }
-function clickedItem(itemData){
+
+function clickedItem(itemData) {
     if (aantal < itemData.basisPrijs) {
         alert("Je hebt nog niet genoeg fruit om dit te kopen!");
         return;
@@ -66,68 +66,87 @@ function clickedItem(itemData){
     itemData.aantal += 1;
     updateStats()
 }
+
 function clickedItem1() {
     var itemData = items[0];
     clickedItem(itemData);
 }
+
 function clickedItem2() {
     var itemData = items[1];
     clickedItem(itemData);
 }
+
 function clickedItem3() {
     var itemData = items[2];
     clickedItem(itemData);
 }
+
 function clickedItem4() {
     var itemData = items[3];
     clickedItem(itemData);
 }
+
 function clickedItem5() {
     var itemData = items[4];
     clickedItem(itemData);
 }
+
 function clickedItem6() {
     var itemData = items[5];
     clickedItem(itemData);
 }
+
 function clickedItem7() {
     var itemData = items[6];
     clickedItem(itemData);
 }
+
 function clickedItem8() {
     var itemData = items[7];
     clickedItem(itemData);
 }
+
 function updateStats() {
     document.getElementById("fruitAantal").innerText = Math.floor(aantal);
     document.getElementById("item1Prijs").innerText = items[0].basisPrijs;
     document.getElementById("item1Aantal").innerText = items[0].aantal;
+    document.getElementById("item1perseconden").innerText = items[0].aantalPerSeconde;
     document.getElementById("item2Prijs").innerText = items[1].basisPrijs;
     document.getElementById("item2Aantal").innerText = items[1].aantal;
+    document.getElementById("item2perseconden").innerText = items[1].aantalPerSeconde;
     document.getElementById("item3Prijs").innerText = items[2].basisPrijs;
     document.getElementById("item3Aantal").innerText = items[2].aantal;
+    document.getElementById("item3perseconden").innerText = items[2].aantalPerSeconde;
     document.getElementById("item4Prijs").innerText = items[3].basisPrijs;
     document.getElementById("item4Aantal").innerText = items[3].aantal;
+    document.getElementById("item4perseconden").innerText = items[3].aantalPerSeconde;
     document.getElementById("item5Prijs").innerText = items[4].basisPrijs;
     document.getElementById("item5Aantal").innerText = items[4].aantal;
+    document.getElementById("item5perseconden").innerText = items[4].aantalPerSeconde;
     document.getElementById("item6Prijs").innerText = items[5].basisPrijs;
     document.getElementById("item6Aantal").innerText = items[5].aantal;
+    document.getElementById("item6perseconden").innerText = items[5].aantalPerSeconde;
     document.getElementById("item7Prijs").innerText = items[6].basisPrijs;
     document.getElementById("item7Aantal").innerText = items[6].aantal;
+    document.getElementById("item7perseconden").innerText = items[6].aantalPerSeconde;
     document.getElementById("item8Prijs").innerText = items[7].basisPrijs;
     document.getElementById("item8Aantal").innerText = items[7].aantal;
+    document.getElementById("item8perseconden").innerText = items[7].aantalPerSeconde;
     document.getElementById("fruitPerSeconde").innerText = getAantalPerSeconde();
 }
+
 function getAantalPerClick() {
     return 1;
 }
+
 function getAantalPerSeconde() {
     var totaal = 0;
-    for(var i = 0; i < items.length; i++){
-      totaal += items[i].aantal * items[i].aantalPerSeconde;
+    for (var i = 0; i < items.length; i++) {
+        totaal += items[i].aantal * items[i].aantalPerSeconde;
     }
-        return totaal;
-    
+    return totaal;
+
 }
 setInterval(() => {
     aantal += getAantalPerSeconde();

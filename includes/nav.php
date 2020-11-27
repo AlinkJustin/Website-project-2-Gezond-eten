@@ -19,12 +19,12 @@ function isActivePage($currentNavItem)
     <div class="nav-item <?php isActivePage("recepten"); ?> dropdown">
         <a id="dropbutton" href="<?= $baseUrl ?>recepten.php">Recepten</a>
         <div class="dropdown-content">
-            <a href="<?= $baseUrl ?>recepten/broodje.php">Broodje</a>
-            <a href="<?= $baseUrl ?>recepten/pastaCarbonara.php">Broodje</a>
-            <a href="<?= $baseUrl ?>recepten/PastaVis.php">Broodje</a>
-            <a href="<?= $baseUrl ?>recepten/pizza.php">Broodje</a>
-            <a href="<?= $baseUrl ?>recepten/spruiten.php">Broodje</a>
-            <a href="<?= $baseUrl ?>recepten/taart.php">Broodje</a>
+            <a class="nav-item <?php isActivePage("broodje"); ?>"href="<?= $baseUrl ?>recepten/broodje.php">Broodje</a>
+            <a href="<?= $baseUrl ?>recepten/pastaCarbonara.php">Pasta Carbonara</a>
+            <a href="<?= $baseUrl ?>recepten/PastaVis.php">Zalm Pasta</a>
+            <a href="<?= $baseUrl ?>recepten/pizza.php">Gezonde Pizza</a>
+            <a href="<?= $baseUrl ?>recepten/spruiten.php">Spruiten</a>
+            <a href="<?= $baseUrl ?>recepten/taart.php">Quiche</a>
         </div>
     </div>
 

@@ -27,19 +27,12 @@
 
                 <div class="row">
                     <div class="col col-25 col-m-100">
-                        <!--<img id="fruitschaal" src="images/OIP.jfif">-->
-                        <div id="fruitschaal"></div>
+                        <img src="images/52761-video-game-icon.png">
+
                     </div>
                     <div class="col col-75 col-m-100">
-                        <p id="placeholder">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                            Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                            Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                        <p class="inleiding">
+                            deze site bevat de Fruit Clicker game (Cookie Clicker Clone), het doel is om zo veel mogelijk FPS te krijgen (Fruit Per Seconden)
                         </p>
                     </div>
                 </div>
@@ -60,74 +53,82 @@
                     <div class="col col-50 col-m-100">
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item1" value="Item 1">
+                                <input type="button" class="upgrade-button" id="item1" value="Upgrade 1">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item1Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item1Aantal"></span></div>
+                                <div>In bezitting: <span id="item1Aantal"></span></div>
+                                <div>Geeft: <span id="item1perseconden"></span></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item2" value="Item 2">
+                                <input type="button" class="upgrade-button" id="item2" value="Upgrade 2">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item2Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item2Aantal"></span></div>
+                                <div>In bezitting: <span id="item2Aantal"></span></div>
+                                <div>Geeft: <span id="item2perseconden"></span></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item3" value="Item 3">
+                                <input type="button" class="upgrade-button" id="item3" value="Upgrade 3">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item3Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item3Aantal"></span></div>
+                                <div>In bezitting: <span id="item3Aantal"></span></div>
+                                <div>Geeft: <span id="item3perseconden"></span></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item4" value="Item 4">
+                                <input type="button" class="upgrade-button" id="item4" value="Upgrade 4">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item4Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item4Aantal"></span></div>
+                                <div>In bezitting: <span id="item4Aantal"></span></div>
+                                <div>Geeft: <span id="item4perseconden"></span></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item5" value="Item 5">
+                                <input type="button" class="upgrade-button" id="item5" value="Upgrade 5">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item5Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item5Aantal"></span></div>
+                                <div>In bezitting: <span id="item5Aantal"></span></div>
+                                <div>Geeft: <span id="item5perseconden"></span></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item6" value="Item 6">
+                                <input type="button" class="upgrade-button" id="item6" value="Upgrade 6">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item6Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item6Aantal"></span></div>
+                                <div>In bezitting: <span id="item6Aantal"></span></div>
+                                <div>Geeft: <span id="item6perseconden"></span></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item7" value="Item 7">
+                                <input type="button" class="upgrade-button" id="item7" value="Upgrade 7">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item7Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item7Aantal"></span></div>
+                                <div>In bezitting: <span id="item7Aantal"></span></div>
+                                <div>Geeft: <span id="item7perseconden"></span></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-50 col-m-100">
-                                <input type="button" class="upgrade-button" id="item8" value="Item 8">
+                                <input type="button" class="upgrade-button" id="item8" value="Upgrade 8">
                             </div>
                             <div class="col col-50 col-m-100">
                                 <div>Kost: <span id="item8Prijs"></span> Fruit</div>
-                                <div>in bezitting: <span id="item8Aantal"></span></div>
+                                <div>In bezitting: <span id="item8Aantal"></span></div>
+                                <div>Geeft: <span id="item8perseconden"></span></div>
                             </div>
                         </div>
                     </div>

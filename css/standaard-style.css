@@ -125,6 +125,10 @@ hr {
     margin: 10px 0;
 }
 
+.inleiding {
+    font-size: 25px;
+}
+
 @media (max-width: 768px) {
     nav#sticky {
         position: inherit;
