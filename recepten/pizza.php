@@ -6,7 +6,7 @@
     <title>Project 2</title>
     <meta name="description" content="Project 2 Gezond Eten.">
     <meta name="author" content="Justin Alink">
-
+    <link rel="icon" href="favicon.ico" type="ico" sizes="32x32">
     <link rel="stylesheet" href="../css/grid.css">
     <link rel="stylesheet" href="../css/standaard-style.css">
     <!--<script defer type="text/javascript" src="js/main.js"></script>-->
@@ -20,18 +20,11 @@
     include "../includes/header.php";
     include "../includes/nav.php";
     ?>
-
     <div class="container">
-        <div id="inleiding" class="row">
-            <div id="paragraph" class="col">
-                <h1>Recept: Tor­til­la-piz­za Na­po­leta­na</h1>
-            </div>
-        </div>
         <div class="row">
-            <div class="col col-25 col-m-100">
-                <img src="../images/recepten/img_000847_445x297_JPG.jpg">
+            <div class="col col-m-100">
+                <img src="../images/recepten/img_000847_1600x560_JPG.jpg">
             </div>
-            <div class="col col-50 col"
         </div>
         <div class="row">
             <div class="col col-25 col-m-100">
@@ -56,6 +49,22 @@
                         75 g rucola
                     </li>
                 </ul>
+            </div>
+            <div class="col col-50 col-m-100">
+                <h1>Bereiden</h1>
+                <p>
+                    <ol>
+                        <li>
+                        Verwarm de oven voor op 200 ºC. 
+                        Bestrijk de tortilla's met de saus. 
+                        Snijd de olijven in stukjes. 
+                        Bestrooi de pizza's met de kappertjes en de olijfstukjes.
+                        </li>
+                        Bak de pizza's ca. 8 min. 
+                        Verbrokkel de geitenkaas erboven en beleg met de rucola. 
+                        Bak de pizza nog ca. 1 min.
+                    </ol>
+                </p>
             </div>
         </div>
     </div>

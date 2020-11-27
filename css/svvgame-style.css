@@ -28,7 +28,13 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+#hoofdfruit:active{
+    transform: scale(0.95);
+    transition: ease-in-out 100ms;
+    -webkit-transition: 100ms ease-in-out;
+    -moz-transition: 100ms ease-in-out;
+    -o-transition: 100ms ease-in-out;
+}
 .center-block {
     text-align: center;
 }
@@ -40,4 +46,8 @@
 
 #game-container {
     margin: 20px 0;
+}
+#svvgame-foto{
+    max-width: 100%;
+    max-height: 100%;
 }

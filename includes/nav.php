@@ -13,7 +13,7 @@ function isActivePage($currentNavItem)
 
 <nav id="sticky">
     <div class="nav-item <?php isActivePage("schijfvanvijf"); ?>">
-        <a href="<?= $baseUrl ?>schijfvanvijf.php">Schijf van vijf</a>
+        <a href="<?= $baseUrl ?>schoolkantines.php">Artikel School Kantines</a>
     </div>
 
     <div class="nav-item <?php isActivePage("recepten"); ?> dropdown">
@@ -32,7 +32,7 @@ function isActivePage($currentNavItem)
         <a href="<?= $baseUrl ?>bmi.php">Bereken BMI</a>
     </div>
     <div class="nav-item <?php isActivePage("gezondeten"); ?>">
-        <a href="<?= $baseUrl ?>gezondeten.php">Gezond Eten</a>
+        <a href="<?= $baseUrl ?>gezondeten.php">Artikel Gezond Eten</a>
     </div>
     <div class="nav-item <?php isActivePage("vragenlijst"); ?>">
         <a href="<?= $baseUrl ?>vragenlijst.php">Gezonde Quiz</a>

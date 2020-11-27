@@ -6,7 +6,7 @@
     <title>Project 2</title>
     <meta name="description" content="Project 2 Gezond Eten.">
     <meta name="author" content="Justin Alink">
-
+    <link rel="icon" href="favicon.ico" type="ico" sizes="32x32">
     <link rel="stylesheet" href="../css/grid.css">
     <link rel="stylesheet" href="../css/standaard-style.css">
     <!--<script defer type="text/javascript" src="js/main.js"></script>-->

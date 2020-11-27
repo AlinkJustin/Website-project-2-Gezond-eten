@@ -120,13 +120,17 @@ div#footer-logo {
     padding: 0px 0px 0px 30px;
 }
 
-hr {
+hr{
     width: 100%;
-    margin: 10px 0;
+    margin: 25px 0;
 }
 
-.inleiding {
+.inleiding-text {
     font-size: 25px;
+    margin: 20px;
+}
+.inleiding{
+    margin: 20px;
 }
 
 @media (max-width: 768px) {

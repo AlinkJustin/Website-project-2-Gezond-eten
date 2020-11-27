@@ -6,7 +6,7 @@
     <title>Project 2</title>
     <meta name="description" content="Project 2 Gezond Eten.">
     <meta name="author" content="Justin Alink">
-
+    <link rel="icon" href="favicon.ico" type="ico" sizes="32x32">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/standaard-style.css">
     <link rel="stylesheet" href="css/bmi-style.css">
@@ -27,12 +27,12 @@
             <div id="paragraph" class="col">
                 <h1>Bereken BMI</h1>
 
-                <div class="row">
+                <div class="row inleiding">
                     <div class="col-25 col-m-100">
                        <img id="bmi-foto"src="images/BMI-berekenen-1.jpg">
                     </div>
                     <div class="col-75 col-m-100">
-                        <p class="inleiding">
+                        <p class="inleiding-text">
                             op deze pagina kunt u uw BMI berekenen.
                         </p>
                     </div>
